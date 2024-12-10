@@ -26,7 +26,7 @@ async function getData(location = "cairo")
     location = `${location.coords.latitude},${location.coords.longitude}`
   }
 
-  let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=994c73204b9648eebca234818240712&q=${location}&days=3`);
+  let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=994c73204b9648eebca234818240712&q=${location}&days=3`);
 
   if(response.ok)
   {
