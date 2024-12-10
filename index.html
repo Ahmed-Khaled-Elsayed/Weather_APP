@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script
+      src="https://kit.fontawesome.com/7d6ed240dd.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg mynav">
+    <div class="container">
+      <a class="navbar-brand text-white" href=""><i class=" navicon fa-solid fa-cloud"></i> Weather</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class=" active_border">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="">Contact</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="search mt-5 w-50 mx-auto position-relative">
+    <div class="mb-3 me-2 w-100">
+      <input id="searchLocation" type="search" class="form-control rounded-4 py-2" placeholder="Find your location...">
+    </div>
+    <button class="btn btn-primary rounded-4 px-5"><a href="">Find</a></button>
+  </div>
+
+  <div class="container mt-3 ">
+    <div class="weather row justify-content-center">
+      <div id="today" class="card col-md-6 col-xl-3" >
+        
+      </div>
+      <div id="nextOne" class="card col-md-6 col-xl-3 text-center" >
+       
+      </div>
+      <div id="nextTwo" class="card col-md-6 col-xl-3 text-center" >
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer pb-5 pt-5 text-center">
+    
+
+      <div class=" subscribe mb-3 mx-auto w-50 position-relative">
+        <input type="email" class="form-control rounded-4 py-2" placeholder="Enter your email to subscribe...">
+        <button class="btn btn-primary rounded-4"><a href="">subscribe</a></button>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <div class="item d-flex justify-content-center">
+          <a href="" class="align-self-center"><i class="fa-brands fa-facebook-f text-white"></i></a>
+        </div>
+        <div class="item d-flex justify-content-center">
+          <a href="" class="align-self-center"><i class="fa-brands fa-twitter align-self-center text-white"></i></a>
+          
+        </div>
+        <div class="item d-flex justify-content-center">
+          <a href="" class="align-self-center"><i class="fa-brands fa-google-plus-g align-self-center text-white"></i></a>
+          
+        </div>
+        <div class="item d-flex justify-content-center">
+          <a href="" class="align-self-center"><i class="fa-brands fa-pinterest align-self-center text-white"></i></a>
+          
+        </div>
+      </div>
+      
+    
+    
+    <span class="text-white mx-auto pt-2">Copyright 2024, Designed by Ahmed_Khaled. All rights reserved</span>
+  </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
